@@ -8,8 +8,8 @@ import { Component, Input } from '@angular/core';
 export class AppComponent{
   title = 'czasopisma';
   time = new Date();
-  showLogin = false;  //zmienic
-  showMagazines = true  //zmienic na false
+  showLogin = true;  //zmienic
+  showMagazines = false  //zmienic na false
   showYears = false
   showTable = false
 

@@ -1,2 +1,2 @@
-<input [(ngModel)]="pass" type="password" (input)="onPassChange()">
+<input [(ngModel)]="pass" type="password" (input)="onPassChange()" (keydown) = "onKeyDown($event)">
 <p>{{ pass | currency :'INR': 'symbol':'1.0-3'}}</p>
